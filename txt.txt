@@ -1,0 +1,26 @@
+npm create vite@latest
+npm install : to install node node_modules
+
+npm install -D tailwindcss postcss autoprefixer : tailwindcss as a dependencies/ no needed in production runtime
+PostCSS is a tool that processes CSS with plugins.
+Tailwind uses PostCSS to:
+generate utility classes
+process Tailwind directives, Autoprefixer automatically adds browser prefixes to CSS.
+like display:-webkit-flex etc
+Tailwind classes
+       ↓
+PostCSS processes CSS
+       ↓
+Autoprefixer adds browser prefixes
+       ↓
+Final CSS generated
+
+npx tailwind init -p : intialize folder for tailwind
+npx stands for Node Package Execute.
+It allows you to run a package without installing it globally.
+
+npm install tailwindcss @tailwindcss/vite
+@import "tailwindcss"; in src/index.css
+
+
+npm i react-router-dom
